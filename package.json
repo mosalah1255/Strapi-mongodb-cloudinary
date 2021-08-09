@@ -1,5 +1,5 @@
 {
-  "name": "strapi-mongodb",
+  "name": "backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,30 +11,32 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.0.4",
-    "strapi-admin": "3.0.4",
-    "strapi-connector-mongoose": "3.0.4",
-    "strapi-plugin-content-manager": "3.0.4",
-    "strapi-plugin-content-type-builder": "3.0.4",
-    "strapi-plugin-documentation": "3.0.4",
-    "strapi-plugin-email": "3.0.4",
-    "strapi-plugin-graphql": "3.0.4",
-    "strapi-plugin-upload": "3.0.4",
-    "strapi-plugin-users-permissions": "3.0.4",
-    "strapi-provider-upload-aws-s3": "^3.0.4",
-    "strapi-provider-upload-cloudinary": "^3.0.4",
-    "strapi-provider-upload-local": "^3.0.4",
-    "strapi-utils": "3.0.4"
+    "strapi": "3.6.6",
+    "strapi-admin": "3.6.6",
+    "strapi-utils": "3.6.6",
+    "strapi-plugin-content-type-builder": "3.6.6",
+    "strapi-plugin-content-manager": "3.6.6",
+    "strapi-plugin-users-permissions": "3.6.6",
+    "strapi-plugin-email": "3.6.6",
+    "strapi-plugin-upload": "3.6.6",
+    "strapi-plugin-i18n": "3.6.6",
+    "strapi-connector-bookshelf": "3.6.6",
+    "knex": "0.21.18",
+    "sqlite3": "5.0.0",
+    "mime-types": "^2.1.27",
+    "strapi-plugin-graphql": "3.6.6"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "7d600e0c-3674-4e3e-b49f-16b1a6c20bc8"
+    "uuid": "29fe5cee-9317-483f-8ee0-4786c8a3d3f0",
+    "template": "https://github.com/strapi/strapi-template-blog",
+    "starter": "https://github.com/strapi/strapi-starter-next-blog"
   },
   "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
   },
   "license": "MIT"
 }
